@@ -23,8 +23,8 @@
     <img class="logo" src="logo.png" alt="B-R-T Group">
     <h2>Connect to WiFi</h2>
     <p class="sub">Enter your voucher code to get online</p>
-    <input id="u" placeholder="Voucher code / username">
-    <input id="p" type="password" placeholder="Password (if any)">
+    <input id="u" placeholder="Voucher code / username" autocomplete="off" autocapitalize="none" spellcheck="false">
+    <input id="p" type="text" style="-webkit-text-security:disc" placeholder="Password (if any)" autocomplete="off" autocapitalize="none" spellcheck="false">
     <button onclick="login()">Login</button>
     <div id="err"></div>
     <div class="note">Need a voucher? Buy one at the shop.<br><a href="http://10.10.10.251:3000" style="color:#1aa6b7">Check my data usage</a></div>
